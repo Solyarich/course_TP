@@ -1,0 +1,716 @@
+{\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1033\deflangfe1033{\fonttbl{\f0\fswiss\fprq2\fcharset204 Arial;}{\f1\froman\fprq2\fcharset204 Times New Roman;}{\f2\fmodern\fprq1\fcharset204 Courier New;}}
+{\colortbl ;\red128\green96\blue32;\red0\green128\blue0;\red96\green64\blue32;\red128\green0\blue0;\red0\green32\blue128;\red128\green128\blue128;\red255\green255\blue255;}
+{\stylesheet{ Normal;}{\s1 heading 1;}{\s2 heading 2;}{\s3 heading 3;}{\s4 heading 4;}{\s5 heading 5;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\widctlpar\sa60\qc\f0\fs24\lang1049\par
+\par
+\par
+\par
+\par
+\par
+\par
+
+\pard\widctlpar\sb240\sa60\qc\kerning28\b\fs32 Arithmetic_training\par
+
+\pard\widctlpar\sa60\qc\kerning0\b0\fs24\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+AUTHOR\par
+\'c2\'e5\'f0\'f1\'e8\'ff 1.0\par
+\'d1\'f0 17 \'cc\'e0\'e9 2023 \par
+
+\pard\keepn\widctlpar\s1\sb240\sa60\page\page\kerning36\b\fs36\'ce\'e3\'eb\'e0\'e2\'eb\'e5\'ed\'e8\'e5\par
+
+\pard\kerning0\b0\f1\fs24\par
+Table of contents\par
+\par
+\par
+\par
+
+\pard\keepn\s1\sb240\sa60\kerning36\b\f0\fs36\'c8\'e5\'f0\'e0\'f0\'f5\'e8\'f7\'e5\'f1\'ea\'e8\'e9 \'f1\'ef\'e8\'f1\'ee\'ea \'ea\'eb\'e0\'f1\'f1\'ee\'e2\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\fs28\'c8\'e5\'f0\'e0\'f0\'f5\'e8\'ff \'ea\'eb\'e0\'f1\'f1\'ee\'e2\par
+
+\pard\kerning0\b0\f1\fs22\'c8\'e5\'f0\'e0\'f0\'f5\'e8\'ff \'ea\'eb\'e0\'f1\'f1\'ee\'e2.\fs24\par
+
+\pard\widctlpar\li360\sb27\sa27\tqr\tldot\tx8640\fs20 QMainWindow\par
+
+\pard\widctlpar\li720\sb24\sa24\tqr\tldot\tx8640 MainWindow\tab pagenum\par
+choose_difficulty\tab pagenum\par
+game\tab pagenum\par
+records\tab pagenum\par
+
+\pard\widctlpar\li360\sb27\sa27\tqr\tldot\tx8640\par
+
+\pard\fs24\par
+
+\pard\keepn\s1\sb240\sa60\kerning36\b\f0\fs36\'c0\'eb\'f4\'e0\'e2\'e8\'f2\'ed\'fb\'e9 \'f3\'ea\'e0\'e7\'e0\'f2\'e5\'eb\'fc \'ea\'eb\'e0\'f1\'f1\'ee\'e2\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\fs28\'ca\'eb\'e0\'f1\'f1\'fb\par
+
+\pard\kerning0\b0\f1\fs22\'ca\'eb\'e0\'f1\'f1\'fb \'f1 \'e8\'f5 \'ea\'f0\'e0\'f2\'ea\'e8\'ec \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5\'ec.\fs24\par
+
+\pard\widctlpar\li360\sb27\sa27\tqr\tldot\tx8640\b\fs20 choose_difficulty (\fs22\'ca\'eb\'e0\'f1\'f1 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'e2\'fb\'e1\'ee\'f0\'e0 \'f1\'eb\'ee\'e6\'ed\'ee\'f1\'f2\'e8 \'e8\'e3\'f0\'fb \fs20 )\b0  \tab pagenum\par
+\b game (\fs22\'ca\'eb\'e0\'f1\'f1 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'e8\'e3\'f0\'fb \fs20 )\b0  \tab pagenum\par
+\b MainWindow (\fs22\'ca\'eb\'e0\'f1\'f1 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'e3\'eb\'e0\'e2\'ed\'ee\'e3\'ee \'ec\'e5\'ed\'fe \fs20 )\b0  \tab pagenum\par
+\b records (\fs22\'ca\'eb\'e0\'f1\'f1 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'f0\'e5\'ea\'ee\'f0\'e4\'ee\'e2 \fs20 )\b0  \tab pagenum\par
+\par
+
+\pard\fs24\par
+
+\pard\keepn\s1\sb240\sa60\kerning36\b\f0\fs36\'d1\'ef\'e8\'f1\'ee\'ea \'f4\'e0\'e9\'eb\'ee\'e2\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\fs28\'d4\'e0\'e9\'eb\'fb\par
+
+\pard\kerning0\b0\f1\fs22\'cf\'ee\'eb\'ed\'fb\'e9 \'f1\'ef\'e8\'f1\'ee\'ea \'e4\'ee\'ea\'f3\'ec\'e5\'ed\'f2\'e8\'f0\'ee\'e2\'e0\'ed\'ed\'fb\'f5 \'f4\'e0\'e9\'eb\'ee\'e2.\fs24\par
+
+\pard\widctlpar\li360\sb27\sa27\tqr\tldot\tx8640\b\fs20 C:/Users/Zver/Documents/course_work/choose_difficulty.cpp (\fs22\'c8\'f1\'f5\'ee\'e4\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e0\'eb\'e0 \'ec\'e5\'ed\'fe \'e2\'fb\'e1\'ee\'f0\'e0 \'f1\'eb\'ee\'e6\'ed\'ee\'f1\'f2\'e8 \fs20 )\b0  \tab pagenum\par
+\b C:/Users/Zver/Documents/course_work/choose_difficulty.h (\fs22\'c7\'e0\'e3\'ee\'eb\'ee\'e2\'ee\'f7\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'e4\'eb\'ff \'ec\'e5\'ed\'fe \'e2\'fb\'e1\'ee\'f0\'e0 \'f1\'eb\'ee\'e6\'ed\'ee\'f1\'f2\'e8 \fs20 )\b0  \tab pagenum\par
+\b C:/Users/Zver/Documents/course_work/game.cpp (\fs22\'c8\'f1\'f5\'ee\'e4\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e0\'eb\'e0 \'ec\'e5\'ed\'fe \'e8\'e3\'f0\'fb \fs20 )\b0  \tab pagenum\par
+\b C:/Users/Zver/Documents/course_work/game.h (\fs22\'c7\'e0\'e3\'ee\'eb\'ee\'e2\'ee\'f7\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'e4\'eb\'ff \'ec\'e5\'ed\'fe \'e8\'e3\'f0\'fb \fs20 )\b0  \tab pagenum\par
+\b C:/Users/Zver/Documents/course_work/main.cpp (\fs22\'ce\'f1\'ed\'ee\'e2\'ed\'ee\'e9 \'e8\'f1\'f5\'ee\'e4\'ed\'fb\'e9 \'f4\'e0\'e9\'eb, \'f1 \'ea\'ee\'f2\'ee\'f0\'ee\'e3\'ee \'e7\'e0\'ef\'f3\'f1\'ea\'e0\'e5\'f2\'f1\'ff \'ef\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5 \fs20 )\b0  \tab pagenum\par
+\b C:/Users/Zver/Documents/course_work/mainwindow.cpp (\fs22\'c8\'f1\'f5\'ee\'e4\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e0\'eb\'e0 \'e3\'eb\'e0\'e2\'ed\'ee\'e3\'ee \'ec\'e5\'ed\'fe (\'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1 \'e3\'eb\'e0\'e2\'ed\'ee\'e3\'ee \'ec\'e5\'ed\'fe) \fs20 )\b0  \tab pagenum\par
+\b C:/Users/Zver/Documents/course_work/mainwindow.h (\fs22\'c7\'e0\'e3\'ee\'eb\'ee\'e2\'ee\'f7\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e0\'eb\'e0 \'e3\'eb\'e0\'e2\'ed\'ee\'e5\'e3\'ee \'ec\'e5\'ed\'fe (\'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1 \'e3\'eb\'e0\'e2\'ed\'ee\'e3\'ee \'ec\'e5\'ed\'fe) \fs20 )\b0  \tab pagenum\par
+\b C:/Users/Zver/Documents/course_work/records.cpp (\fs22\'c8\'f1\'f5\'ee\'e4\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e0\'eb\'e0 \'ec\'e5\'ed\'fe \'f0\'e5\'ea\'ee\'f0\'e4\'ee\'e2 \fs20 )\b0  \tab pagenum\par
+\b C:/Users/Zver/Documents/course_work/records.h (\fs22\'c7\'e0\'e3\'ee\'eb\'ee\'e2\'ee\'f7\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'e4\'eb\'ff \'ec\'e5\'ed\'fe \'f0\'e5\'ea\'ee\'f0\'e4\'ee\'e2 \fs20 )\b0  \tab pagenum\par
+\par
+
+\pard\fs24\par
+
+\pard\keepn\s1\sb240\sa60\kerning36\b\f0\fs36\'ca\'eb\'e0\'f1\'f1\'fb\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\fs28\'ca\'eb\'e0\'f1\'f1 choose_difficulty\par
+
+\pard\kerning0\b0\f1\fs24 AAAAAAAAAOAAAAAAAAAO\par
+\fs22\'ca\'eb\'e0\'f1\'f1 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'e2\'fb\'e1\'ee\'f0\'e0 \'f1\'eb\'ee\'e6\'ed\'ee\'f1\'f2\'e8 \'e8\'e3\'f0\'fb \fs24\par
+\f2 #include <choose_difficulty.h>\f1\par
+\'c3\'f0\'e0\'f4 \'ed\'e0\'f1\'eb\'e5\'e4\'ee\'e2\'e0\'ed\'e8\'ff:choose_difficulty:\par
+
+\pard\qc IMAGE\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\'ce\'f2\'ea\'f0\'fb\'f2\'fb\'e5 \'f7\'eb\'e5\'ed\'fb\par
+
+\pard 
+{\pntext\f1 0)\tab}{\*\pn\pnlvlbody\pnf1\pnindent0\pnstart0\pndec{\pntxta)}}
+\widctlpar\fi-360\li360\f1\fs20 choose_difficulty\b0  (QWidget *parent=nullptr)AAAAAAAAAPAAAAAAAAAP\par
+
+\pard\widctlpar\li360\sb30\sa60\qj\i\fs22\'ca\'ee\'ed\'f1\'f2\'f0\'f3\'ea\'f2\'ee\'f0 \'ea\'eb\'e0\'f1\'f1\'e0 \b choose_difficulty\b0 . \fs20\par
+\i0\par
+
+\pard 
+{\pntext\f1 0)\tab}{\*\pn\pnlvlbody\pnf1\pnindent0\pnstart0\pndec{\pntxta)}}
+\widctlpar\fi-360\li360\b ~choose_difficulty\b0  ()AAAAAAAAAQAAAAAAAAAQ\par
+
+\pard\widctlpar\li360\sb30\sa60\qj\i\fs22\'c4\'e5\'f1\'f2\'f0\'f3\'ea\'f2\'ee\'f0 \'ea\'eb\'e0\'f1\'f1\'e0 \b choose_difficulty\b0 . \fs20\par
+\i0\par
+
+\pard\brdrb\brdrs\brdrw5\brsp20 \widctlpar\fs24\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\'cf\'ee\'e4\'f0\'ee\'e1\'ed\'ee\'e5 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5\par
+
+\pard\widctlpar\sb30\sa60\qj\b0\f1\fs22\'ca\'eb\'e0\'f1\'f1 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'e2\'fb\'e1\'ee\'f0\'e0 \'f1\'eb\'ee\'e6\'ed\'ee\'f1\'f2\'e8 \'e8\'e3\'f0\'fb \par
+\'ce\'f2\'ea\'f0\'fb\'e2\'e0\'e5\'f2\'f1\'ff \'f4\'ee\'f0\'ec\'e0 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'f1 \'e2\'fb\'e1\'ee\'f0\'ee\'ec \'f1\'eb\'ee\'e6\'ed\'ee\'f1\'f2\'e8: \'eb\'b8\'e3\'ea\'e0\'ff, \'f1\'f0\'e5\'e4\'ed\'ff\'ff, \'f2\'ff\'e6\'b8\'eb\'e0\'ff. \par
+
+\pard\brdrb\brdrs\brdrw5\brsp20 \widctlpar\fs24\par
+
+\pard\'ce\'e1\'fa\'ff\'e2\'eb\'e5\'ed\'e8\'ff \'e8 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'ff \'f7\'eb\'e5\'ed\'ee\'e2 \'ea\'eb\'e0\'f1\'f1\'ee\'e2 \'ed\'e0\'f5\'ee\'e4\'ff\'f2\'f1\'ff \'e2 \'f4\'e0\'e9\'eb\'e0\'f5:\par
+
+\pard 
+{\pntext\f1 0)\tab}{\*\pn\pnlvlbody\pnf1\pnindent0\pnstart0\pndec{\pntxta)}}
+\widctlpar\fi-360\li720\fs20 C:/Users/Zver/Documents/course_work/\b choose_difficulty.h\b0\par
+{\pntext\f1 1)\tab}C:/Users/Zver/Documents/course_work/\b choose_difficulty.cpp\b0\par
+
+\pard\fs24\par
+\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\b\f0\fs28\'ca\'eb\'e0\'f1\'f1 game\par
+
+\pard\kerning0\b0\f1\fs24 AAAAAAAAARAAAAAAAAAR\par
+\fs22\'ca\'eb\'e0\'f1\'f1 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'e8\'e3\'f0\'fb \fs24\par
+\f2 #include <game.h>\f1\par
+\'c3\'f0\'e0\'f4 \'ed\'e0\'f1\'eb\'e5\'e4\'ee\'e2\'e0\'ed\'e8\'ff:game:\par
+
+\pard\qc IMAGE\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\'ce\'f2\'ea\'f0\'fb\'f2\'fb\'e5 \'f7\'eb\'e5\'ed\'fb\par
+
+\pard 
+{\pntext\f1 0)\tab}{\*\pn\pnlvlbody\pnf1\pnindent0\pnstart0\pndec{\pntxta)}}
+\widctlpar\fi-360\li360\f1\fs20 game\b0  (int diff=0, QWidget *parent=nullptr)\par
+
+\pard\widctlpar\li360\sb30\sa60\qj\i\fs22\'ca\'ee\'ed\'f1\'f2\'f0\'f3\'ea\'f2\'ee\'f0 \'ea\'eb\'e0\'f1\'f1\'e0 game. \fs20\par
+\i0\par
+
+\pard 
+{\pntext\f1 0)\tab}{\*\pn\pnlvlbody\pnf1\pnindent0\pnstart0\pndec{\pntxta)}}
+\widctlpar\fi-360\li360\b ~game\b0  ()AAAAAAAAASAAAAAAAAAS\par
+
+\pard\widctlpar\li360\sb30\sa60\qj\i\fs22\'c4\'e5\'f1\'f2\'f0\'f3\'ea\'f2\'ee\'f0 \'ea\'eb\'e0\'f1\'f1\'e0 game. \fs20\par
+\i0\par
+
+\pard\brdrb\brdrs\brdrw5\brsp20 \widctlpar\fs24\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\'cf\'ee\'e4\'f0\'ee\'e1\'ed\'ee\'e5 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5\par
+
+\pard\widctlpar\sb30\sa60\qj\b0\f1\fs22\'ca\'eb\'e0\'f1\'f1 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'e8\'e3\'f0\'fb \par
+\'ce\'f2\'ea\'f0\'fb\'e2\'e0\'e5\'f2\'f1\'ff \'f4\'ee\'f0\'ec\'e0 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'f1 \'e8\'e3\'f0\'ee\'e9. \'c2 \'ef\'ee\'eb\'e5 \'ed\'e5\'ee\'e1\'f5\'ee\'e4\'e8\'ec\'ee \'ed\'e0\'ef\'e8\'f1\'e0\'f2\'fc \'ee\'f2\'e2\'e5\'f2 \'ed\'e0 \'ef\'f0\'e8\'ec\'e5\'f0, \'f0\'e0\'f1\'ef\'ee\'eb\'ee\'e6\'e5\'ed\'ed\'fb\'e9 \'e2\'fb\'f8\'e5 \'e8 \'ed\'e0\'e6\'e0\'f2\'fc \'ed\'e0 \'ea\'ed\'ee\'ef\'ea\'f3 \'ee\'f2\'e2\'e5\'f2\'e8\'f2\'fc. \par
+
+\pard\brdrb\brdrs\brdrw5\brsp20 \widctlpar\fs24\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\'ca\'ee\'ed\'f1\'f2\'f0\'f3\'ea\'f2\'ee\'f0(\'fb)\par
+
+\pard\keepn\widctlpar\s4\sb240\sa60\fs20 game::game (int  \i diff\i0  = \f2 0\f0 , QWidget *  \i parent\i0  = \f2 nullptr\f0 )\f2 [explicit]\f0\par
+
+\pard\widctlpar\li360\sb30\sa60\qj AAAAAAAAATAAAAAAAAAT\b0\f1\par
+\fs22\'ca\'ee\'ed\'f1\'f2\'f0\'f3\'ea\'f2\'ee\'f0 \'ea\'eb\'e0\'f1\'f1\'e0 game. \fs20\par
+\fs22\par
+
+\pard\keepn\widctlpar\s5\li360\sb90\sa30\qj\b\f0\fs20\'c0\'f0\'e3\'f3\'ec\'e5\'ed\'f2\'fb\par
+\trowd\trgaph108\trleft426\trbrdrl\brdrs\brdrw10\brdrcf6 \trbrdrt\brdrs\brdrw10\brdrcf6 \trbrdrr\brdrs\brdrw10\brdrcf6 \trbrdrb\brdrs\brdrw10\brdrcf6 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw10\brdrs\brdrcf6\clbrdrt\brdrw10\brdrs\brdrcf6\clbrdrr\brdrw10\brdrs\brdrcf6\clbrdrb\brdrw10\brdrs\brdrcf6 \cellx1224\clbrdrl\brdrw10\brdrs\brdrcf6\clbrdrt\brdrw10\brdrs\brdrcf6\clbrdrr\brdrw10\brdrs\brdrcf6\clbrdrb\brdrw10\brdrs\brdrcf6 \cellx3061\clbrdrl\brdrw10\brdrs\brdrcf6\clbrdrt\brdrw10\brdrs\brdrcf6\clbrdrr\brdrw10\brdrs\brdrcf6\clbrdrb\brdrw10\brdrs\brdrcf6 \cellx8748 
+\pard\intbl\widctlpar\b0\f1 in\cell\i diff\i0  \cell\'d1\'eb\'ee\'e6\'ed\'ee\'f1\'f2\'fc \'e8\'e3\'f0\'fb \cell\row 
+\pard\brdrb\brdrs\brdrw5\brsp20 \widctlpar\b\f0\par
+
+\pard\keepn\widctlpar\s4\sb240\sa60\'ce\'e1\'fa\'ff\'e2\'eb\'e5\'ed\'e8\'ff \'e8 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'ff \'f7\'eb\'e5\'ed\'ee\'e2 \'ea\'eb\'e0\'f1\'f1\'ee\'e2 \'ed\'e0\'f5\'ee\'e4\'ff\'f2\'f1\'ff \'e2 \'f4\'e0\'e9\'eb\'e0\'f5:\par
+
+\pard 
+{\pntext\f1 0)\tab}{\*\pn\pnlvlbody\pnf1\pnindent0\pnstart0\pndec{\pntxta)}}
+\widctlpar\fi-360\li720\b0\f1 C:/Users/Zver/Documents/course_work/\b game.h\b0\par
+{\pntext\f1 1)\tab}C:/Users/Zver/Documents/course_work/\b game.cpp\b0\par
+
+\pard\keepn\widctlpar\s4\sb240\sa60\b\f0\par
+
+\pard\b0\f1\fs24\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\b\f0\fs28\'ca\'eb\'e0\'f1\'f1 MainWindow\par
+
+\pard\kerning0\b0\f1\fs24 AAAAAAAAAUAAAAAAAAAU\par
+\fs22\'ca\'eb\'e0\'f1\'f1 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'e3\'eb\'e0\'e2\'ed\'ee\'e3\'ee \'ec\'e5\'ed\'fe \fs24\par
+\f2 #include <mainwindow.h>\f1\par
+\'c3\'f0\'e0\'f4 \'ed\'e0\'f1\'eb\'e5\'e4\'ee\'e2\'e0\'ed\'e8\'ff:MainWindow:\par
+
+\pard\qc IMAGE\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\'ce\'f2\'ea\'f0\'fb\'f2\'fb\'e5 \'f7\'eb\'e5\'ed\'fb\par
+
+\pard 
+{\pntext\f1 0)\tab}{\*\pn\pnlvlbody\pnf1\pnindent0\pnstart0\pndec{\pntxta)}}
+\widctlpar\fi-360\li360\f1\fs20 MainWindow\b0  (QWidget *parent=nullptr)AAAAAAAAAVAAAAAAAAAV\par
+
+\pard\widctlpar\li360\sb30\sa60\qj\i\fs22\'ca\'ee\'ed\'f1\'f2\'f0\'f3\'ea\'f2\'ee\'f0 \'ea\'eb\'e0\'f1\'f1\'e0 \b MainWindow\b0 . \fs20\par
+\i0\par
+
+\pard 
+{\pntext\f1 0)\tab}{\*\pn\pnlvlbody\pnf1\pnindent0\pnstart0\pndec{\pntxta)}}
+\widctlpar\fi-360\li360\b ~MainWindow\b0  ()AAAAAAAAAWAAAAAAAAAW\par
+
+\pard\widctlpar\li360\sb30\sa60\qj\i\fs22\'c4\'e5\'f1\'f2\'f0\'f3\'ea\'f2\'ee\'f0 \'ea\'eb\'e0\'f1\'f1\'e0 \b MainWindow\b0 . \fs20\par
+\i0\par
+
+\pard\brdrb\brdrs\brdrw5\brsp20 \widctlpar\fs24\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\'cf\'ee\'e4\'f0\'ee\'e1\'ed\'ee\'e5 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5\par
+
+\pard\widctlpar\sb30\sa60\qj\b0\f1\fs22\'ca\'eb\'e0\'f1\'f1 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'e3\'eb\'e0\'e2\'ed\'ee\'e3\'ee \'ec\'e5\'ed\'fe \par
+\'ce\'f2\'ea\'f0\'fb\'e2\'e0\'e5\'f2\'f1\'ff \'f4\'ee\'f0\'ec\'e0 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'e3\'eb\'e0\'e2\'ed\'ee\'e3\'ee \'ec\'e5\'ed\'fe \par
+
+\pard\brdrb\brdrs\brdrw5\brsp20 \widctlpar\fs24\par
+
+\pard\'ce\'e1\'fa\'ff\'e2\'eb\'e5\'ed\'e8\'ff \'e8 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'ff \'f7\'eb\'e5\'ed\'ee\'e2 \'ea\'eb\'e0\'f1\'f1\'ee\'e2 \'ed\'e0\'f5\'ee\'e4\'ff\'f2\'f1\'ff \'e2 \'f4\'e0\'e9\'eb\'e0\'f5:\par
+
+\pard 
+{\pntext\f1 0)\tab}{\*\pn\pnlvlbody\pnf1\pnindent0\pnstart0\pndec{\pntxta)}}
+\widctlpar\fi-360\li720\fs20 C:/Users/Zver/Documents/course_work/\b mainwindow.h\b0\par
+{\pntext\f1 1)\tab}C:/Users/Zver/Documents/course_work/\b mainwindow.cpp\b0\par
+
+\pard\fs24\par
+\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\b\f0\fs28\'ca\'eb\'e0\'f1\'f1 records\par
+
+\pard\kerning0\b0\f1\fs24 AAAAAAAAAXAAAAAAAAAX\par
+\fs22\'ca\'eb\'e0\'f1\'f1 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'f0\'e5\'ea\'ee\'f0\'e4\'ee\'e2 \fs24\par
+\f2 #include <records.h>\f1\par
+\'c3\'f0\'e0\'f4 \'ed\'e0\'f1\'eb\'e5\'e4\'ee\'e2\'e0\'ed\'e8\'ff:records:\par
+
+\pard\qc IMAGE\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\'ce\'f2\'ea\'f0\'fb\'f2\'fb\'e5 \'f7\'eb\'e5\'ed\'fb\par
+
+\pard 
+{\pntext\f1 0)\tab}{\*\pn\pnlvlbody\pnf1\pnindent0\pnstart0\pndec{\pntxta)}}
+\widctlpar\fi-360\li360\f1\fs20 records\b0  (QWidget *parent=nullptr)AAAAAAAAAYAAAAAAAAAY\par
+
+\pard\widctlpar\li360\sb30\sa60\qj\i\fs22\'ca\'ee\'ed\'f1\'f2\'f0\'f3\'ea\'f2\'ee\'f0 \'ea\'eb\'e0\'f1\'f1\'e0 records. \fs20\par
+\i0\par
+
+\pard 
+{\pntext\f1 0)\tab}{\*\pn\pnlvlbody\pnf1\pnindent0\pnstart0\pndec{\pntxta)}}
+\widctlpar\fi-360\li360\b ~records\b0  ()AAAAAAAAAZAAAAAAAAAZ\par
+
+\pard\widctlpar\li360\sb30\sa60\qj\i\fs22\'c4\'e5\'f1\'f2\'f0\'f3\'ea\'f2\'ee\'f0 \'ea\'eb\'e0\'f1\'f1\'e0 records. \fs20\par
+\i0\par
+
+\pard\brdrb\brdrs\brdrw5\brsp20 \widctlpar\fs24\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\'cf\'ee\'e4\'f0\'ee\'e1\'ed\'ee\'e5 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5\par
+
+\pard\widctlpar\sb30\sa60\qj\b0\f1\fs22\'ca\'eb\'e0\'f1\'f1 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'f0\'e5\'ea\'ee\'f0\'e4\'ee\'e2 \par
+\'ce\'f2\'ea\'f0\'fb\'e2\'e0\'e5\'f2\'f1\'ff \'f4\'ee\'f0\'ec\'e0 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'f1 \'f0\'e5\'ea\'ee\'f0\'e4\'e0\'ec\'e8. \'cf\'ee\'ea\'e0\'e7\'fb\'e2\'e0\'e5\'f2\'f1\'ff \'eb\'f3\'f7\'f8\'e8\'e9 \'f1\'f7\'b8\'f2 \'e2 \'ea\'e0\'e6\'e4\'ee\'e9 \'f1\'eb\'ee\'e6\'ed\'ee\'f1\'f2\'e8. \par
+
+\pard\brdrb\brdrs\brdrw5\brsp20 \widctlpar\fs24\par
+
+\pard\'ce\'e1\'fa\'ff\'e2\'eb\'e5\'ed\'e8\'ff \'e8 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'ff \'f7\'eb\'e5\'ed\'ee\'e2 \'ea\'eb\'e0\'f1\'f1\'ee\'e2 \'ed\'e0\'f5\'ee\'e4\'ff\'f2\'f1\'ff \'e2 \'f4\'e0\'e9\'eb\'e0\'f5:\par
+
+\pard 
+{\pntext\f1 0)\tab}{\*\pn\pnlvlbody\pnf1\pnindent0\pnstart0\pndec{\pntxta)}}
+\widctlpar\fi-360\li720\fs20 C:/Users/Zver/Documents/course_work/\b records.h\b0\par
+{\pntext\f1 1)\tab}C:/Users/Zver/Documents/course_work/\b records.cpp\b0\par
+
+\pard\fs24\par
+
+\pard\keepn\s1\sb240\sa60\kerning36\b\f0\fs36\'d4\'e0\'e9\'eb\'fb\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\fs28\'d4\'e0\'e9\'eb C:/Users/Zver/Documents/course_work/choose_difficulty.cpp\par
+
+\pard\kerning0\b0\f1\fs24 AAAAAAAAAEAAAAAAAAAE\par
+\fs22\'c8\'f1\'f5\'ee\'e4\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e0\'eb\'e0 \'ec\'e5\'ed\'fe \'e2\'fb\'e1\'ee\'f0\'e0 \'f1\'eb\'ee\'e6\'ed\'ee\'f1\'f2\'e8 \fs24\par
+
+\pard\widctlpar\f2\fs22 #include "choose_difficulty.h"\f1\par
+\f2 #include "ui_choose_difficulty.h"\f1\par
+\f2 #include "game.h"\f1\par
+
+\pard\brdrb\brdrs\brdrw5\brsp20 \widctlpar\fs24\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\'cf\'ee\'e4\'f0\'ee\'e1\'ed\'ee\'e5 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5\par
+
+\pard\widctlpar\sb30\sa60\qj\b0\f1\fs22\'c8\'f1\'f5\'ee\'e4\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e0\'eb\'e0 \'ec\'e5\'ed\'fe \'e2\'fb\'e1\'ee\'f0\'e0 \'f1\'eb\'ee\'e6\'ed\'ee\'f1\'f2\'e8 \par
+\par
+
+\pard\keepn\widctlpar\s5\sb90\sa30\qj\b\f0\fs20\'c0\'e2\'f2\'ee\'f0\par
+
+\pard\widctlpar\li360\sb30\sa60\b0\f1\'c8\'e2\'e0\'ed\'ee\'e2 \'cd\'e8\'ea\'e8\'f2\'e0 \par
+
+\pard\keepn\widctlpar\s5\li360\sb90\sa30\b\f0\'c4\'e0\'f2\'e0\par
+
+\pard\widctlpar\li360\sb30\sa60\b0\f1 15.05.2023 \par
+
+\pard\fs24\par
+
+\pard\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\b\f0\fs28\'d4\'e0\'e9\'eb C:/Users/Zver/Documents/course_work/choose_difficulty.h\par
+
+\pard\kerning0\b0\f1\fs24 AAAAAAAAAFAAAAAAAAAF\par
+\fs22\'c7\'e0\'e3\'ee\'eb\'ee\'e2\'ee\'f7\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'e4\'eb\'ff \'ec\'e5\'ed\'fe \'e2\'fb\'e1\'ee\'f0\'e0 \'f1\'eb\'ee\'e6\'ed\'ee\'f1\'f2\'e8 \fs24\par
+
+\pard\widctlpar\f2\fs22 #include <QMainWindow>\f1\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\fs24\'ca\'eb\'e0\'f1\'f1\'fb\par
+
+\pard\widctlpar\li360\sb30\sa60\qj\b0\f1\fs20 class \b choose_difficulty\b0\i\fs22\'ca\'eb\'e0\'f1\'f1 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'e2\'fb\'e1\'ee\'f0\'e0 \'f1\'eb\'ee\'e6\'ed\'ee\'f1\'f2\'e8 \'e8\'e3\'f0\'fb \i0\fs20\par
+
+\pard\brdrb\brdrs\brdrw5\brsp20 \widctlpar\fs24\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\'cf\'ee\'e4\'f0\'ee\'e1\'ed\'ee\'e5 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5\par
+
+\pard\widctlpar\sb30\sa60\qj\b0\f1\fs22\'c7\'e0\'e3\'ee\'eb\'ee\'e2\'ee\'f7\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'e4\'eb\'ff \'ec\'e5\'ed\'fe \'e2\'fb\'e1\'ee\'f0\'e0 \'f1\'eb\'ee\'e6\'ed\'ee\'f1\'f2\'e8 \par
+\par
+
+\pard\keepn\widctlpar\s5\sb90\sa30\qj\b\f0\fs20\'c0\'e2\'f2\'ee\'f0\par
+
+\pard\widctlpar\li360\sb30\sa60\b0\f1\'c8\'e2\'e0\'ed\'ee\'e2 \'cd\'e8\'ea\'e8\'f2\'e0 \par
+
+\pard\keepn\widctlpar\s5\li360\sb90\sa30\b\f0\'c4\'e0\'f2\'e0\par
+
+\pard\widctlpar\li360\sb30\sa60\b0\f1 15.05.2023 \par
+
+\pard\fs24\par
+
+\pard\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\b\f0\fs28 choose_difficulty.h\par
+
+\pard\cbpat7\shading1000\widctlpar\kerning0\b0\f1\fs24 AAAAAAAAAAAAAAAAAAAA\'d1\'ec. \'e4\'ee\'ea\'f3\'ec\'e5\'ed\'f2\'e0\'f6\'e8\'fe.\f2\fs16 1 \par
+8 \cf1 #ifndef CHOOSE_DIFFICULTY_H\cf0\par
+9 \cf1 #define CHOOSE_DIFFICULTY_H\cf0\par
+10 \par
+11 \cf1 #include <QMainWindow>\cf0\par
+12 \par
+13 \cf2 namespace \cf0 Ui \{\par
+14 \cf2 class \cf0 choose_difficulty;\par
+15 \}\par
+16 \par
+22 \cf2 class \cf0 choose_difficulty : \cf2 public\cf0  QMainWindow\par
+23 \{\par
+24     Q_OBJECT\par
+25 \par
+26 \cf2 public\cf0 :\par
+30     \cf2 explicit\cf0  choose_difficulty(QWidget *parent = \cf2 nullptr\cf0 );\par
+34     ~choose_difficulty();\par
+35 \par
+36 \cf2 private\cf0  slots:\par
+37 \par
+42     \cf3 void\cf0  on_pushButton_easy_clicked();\par
+43 \par
+49     \cf3 void\cf0  on_pushButton_medium_clicked();\par
+50 \par
+56     \cf3 void\cf0  on_pushButton_hard_clicked();\par
+57 \par
+58 \cf2 private\cf0 :\par
+59     Ui::choose_difficulty *ui;\par
+60 \};\par
+61 \par
+62 \cf1 #endif \cf4 // CHOOSE_DIFFICULTY_H\cf0\par
+
+\pard\f1\fs24\par
+\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\b\f0\fs28\'d4\'e0\'e9\'eb C:/Users/Zver/Documents/course_work/game.cpp\par
+
+\pard\kerning0\b0\f1\fs24 AAAAAAAAAGAAAAAAAAAG\par
+\fs22\'c8\'f1\'f5\'ee\'e4\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e0\'eb\'e0 \'ec\'e5\'ed\'fe \'e8\'e3\'f0\'fb \fs24\par
+
+\pard\widctlpar\f2\fs22 #include "game.h"\f1\par
+\f2 #include "ui_game.h"\f1\par
+\f2 #include <random>\f1\par
+\f2 #include "QDateTime"\f1\par
+\f2 #include "QtMath"\f1\par
+\f2 #include <QMessageBox>\f1\par
+\f2 #include "mainwindow.h"\f1\par
+\f2 #include <QFile>\f1\par
+
+\pard\brdrb\brdrs\brdrw5\brsp20 \widctlpar\fs24\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\'cf\'ee\'e4\'f0\'ee\'e1\'ed\'ee\'e5 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5\par
+
+\pard\widctlpar\sb30\sa60\qj\b0\f1\fs22\'c8\'f1\'f5\'ee\'e4\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e0\'eb\'e0 \'ec\'e5\'ed\'fe \'e8\'e3\'f0\'fb \par
+\par
+
+\pard\keepn\widctlpar\s5\sb90\sa30\qj\b\f0\fs20\'c0\'e2\'f2\'ee\'f0\par
+
+\pard\widctlpar\li360\sb30\sa60\b0\f1\'c8\'e2\'e0\'ed\'ee\'e2 \'cd\'e8\'ea\'e8\'f2\'e0 \par
+
+\pard\keepn\widctlpar\s5\li360\sb90\sa30\b\f0\'c4\'e0\'f2\'e0\par
+
+\pard\widctlpar\li360\sb30\sa60\b0\f1 15.05.2023 \par
+
+\pard\fs24\par
+
+\pard\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\b\f0\fs28\'d4\'e0\'e9\'eb C:/Users/Zver/Documents/course_work/game.h\par
+
+\pard\kerning0\b0\f1\fs24 AAAAAAAAAHAAAAAAAAAH\par
+\fs22\'c7\'e0\'e3\'ee\'eb\'ee\'e2\'ee\'f7\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'e4\'eb\'ff \'ec\'e5\'ed\'fe \'e8\'e3\'f0\'fb \fs24\par
+
+\pard\widctlpar\f2\fs22 #include <QMainWindow>\f1\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\fs24\'ca\'eb\'e0\'f1\'f1\'fb\par
+
+\pard\widctlpar\li360\sb30\sa60\qj\b0\f1\fs20 class \b game\b0\i\fs22\'ca\'eb\'e0\'f1\'f1 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'e8\'e3\'f0\'fb \i0\fs20\par
+
+\pard\brdrb\brdrs\brdrw5\brsp20 \widctlpar\fs24\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\'cf\'ee\'e4\'f0\'ee\'e1\'ed\'ee\'e5 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5\par
+
+\pard\widctlpar\sb30\sa60\qj\b0\f1\fs22\'c7\'e0\'e3\'ee\'eb\'ee\'e2\'ee\'f7\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'e4\'eb\'ff \'ec\'e5\'ed\'fe \'e8\'e3\'f0\'fb \par
+\par
+
+\pard\keepn\widctlpar\s5\sb90\sa30\qj\b\f0\fs20\'c0\'e2\'f2\'ee\'f0\par
+
+\pard\widctlpar\li360\sb30\sa60\b0\f1\'c8\'e2\'e0\'ed\'ee\'e2 \'cd\'e8\'ea\'e8\'f2\'e0 \par
+
+\pard\keepn\widctlpar\s5\li360\sb90\sa30\b\f0\'c4\'e0\'f2\'e0\par
+
+\pard\widctlpar\li360\sb30\sa60\b0\f1 15.05.2023 \par
+
+\pard\fs24\par
+
+\pard\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\b\f0\fs28 game.h\par
+
+\pard\cbpat7\shading1000\widctlpar\kerning0\b0\f1\fs24 AAAAAAAAABAAAAAAAAAB\'d1\'ec. \'e4\'ee\'ea\'f3\'ec\'e5\'ed\'f2\'e0\'f6\'e8\'fe.\f2\fs16 1 \par
+8 \cf1 #ifndef GAME_H\cf0\par
+9 \cf1 #define GAME_H\cf0\par
+10 \par
+11 \cf1 #include <QMainWindow>\cf0\par
+12 \par
+13 \par
+14 \cf2 namespace \cf0 Ui \{\par
+15 \cf2 class \cf0 game;\par
+16 \}\par
+17 \par
+23 \cf2 class \cf0 game : \cf2 public\cf0  QMainWindow\par
+24 \{\par
+25     Q_OBJECT\par
+26 \par
+27 \cf2 public\cf0 :\par
+32     \cf2 explicit\cf0  game(\cf3 int\cf0  diff = 0, QWidget *parent = \cf2 nullptr\cf0 );\par
+36     ~game();\par
+37 \par
+38 \cf2 private\cf0  slots:\par
+39 \par
+45     \cf3 void\cf0  on_lineEdit_answer_textEdited(\cf2 const\cf0  QString &arg1);\par
+46 \par
+52     \cf3 void\cf0  on_pushButton_answer_clicked();\par
+53 \par
+54 \cf2 private\cf0 :\par
+55 \par
+56     Ui::game *ui;\par
+57     \cf3 int\cf0  dif_ = 0;\par
+58     QString dif = \cf5 ""\cf0 ; \cf4 //\'e4\'eb\'ff \'f5\'f0\'e0\'ed\'e5\'ed\'e8\'ff \'f1\'eb\'ee\'e6\'ed\'ee\'f1\'f2\'e8 \'e8\'e3\'f0\'fb\cf0\par
+59     QString answer = \cf5 ""\cf0 ; \cf4 //\'e4\'eb\'ff \'f5\'f0\'e0\'ed\'e5\'ed\'e8\'ff \'ee\'f2\'e2\'e5\'f2\'e0 \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'ff\cf0\par
+60     QString check = \cf5 ""\cf0 ; \cf4 //\'e4\'eb\'ff \'f5\'f0\'e0\'ed\'e5\'ed\'e8\'ff \'e3\'ee\'f2\'ee\'e2\'ee\'e3\'ee \'ee\'f2\'e2\'e5\'f2\'e0\cf0\par
+61     \cf3 int\cf0  score = 0; \cf4 //\'e4\'eb\'ff \'f5\'f0\'e0\'ed\'e5\'ed\'e8\'ff \'ed\'e0\'e1\'f0\'e0\'ed\'ed\'fb\'f5 \'ee\'f7\'ea\'ee\'e2\cf0\par
+62     \cf3 int\cf0  mult = 0; \cf4 //\'e4\'eb\'ff \'f5\'f0\'e0\'ed\'e5\'ed\'e8\'ff \'ec\'ed\'ee\'e6\'e8\'f2\'e5\'eb\'ff\cf0\par
+63 \};\par
+64 \par
+65 \cf1 #endif \cf4 // GAME_H\cf0\par
+
+\pard\f1\fs24\par
+\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\b\f0\fs28\'d4\'e0\'e9\'eb C:/Users/Zver/Documents/course_work/main.cpp\par
+
+\pard\kerning0\b0\f1\fs24 AAAAAAAAAIAAAAAAAAAI\par
+\fs22\'ce\'f1\'ed\'ee\'e2\'ed\'ee\'e9 \'e8\'f1\'f5\'ee\'e4\'ed\'fb\'e9 \'f4\'e0\'e9\'eb, \'f1 \'ea\'ee\'f2\'ee\'f0\'ee\'e3\'ee \'e7\'e0\'ef\'f3\'f1\'ea\'e0\'e5\'f2\'f1\'ff \'ef\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5 \fs24\par
+
+\pard\widctlpar\f2\fs22 #include "mainwindow.h"\f1\par
+\f2 #include <QApplication>\f1\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\fs24\'d4\'f3\'ed\'ea\'f6\'e8\'e8\par
+
+\pard 
+{\pntext\f1 0)\tab}{\*\pn\pnlvlbody\pnf1\pnindent0\pnstart0\pndec{\pntxta)}}
+\widctlpar\fi-360\li360\b0\f1\fs20 int \b main\b0  (int argc, char *argv[])AAAAAAAAAJAAAAAAAAAJ\par
+
+\pard\brdrb\brdrs\brdrw5\brsp20 \widctlpar\fs24\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\'cf\'ee\'e4\'f0\'ee\'e1\'ed\'ee\'e5 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5\par
+
+\pard\widctlpar\sb30\sa60\qj\b0\f1\fs22\'ce\'f1\'ed\'ee\'e2\'ed\'ee\'e9 \'e8\'f1\'f5\'ee\'e4\'ed\'fb\'e9 \'f4\'e0\'e9\'eb, \'f1 \'ea\'ee\'f2\'ee\'f0\'ee\'e3\'ee \'e7\'e0\'ef\'f3\'f1\'ea\'e0\'e5\'f2\'f1\'ff \'ef\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5 \par
+\par
+
+\pard\keepn\widctlpar\s5\sb90\sa30\qj\b\f0\fs20\'c0\'e2\'f2\'ee\'f0\par
+
+\pard\widctlpar\li360\sb30\sa60\b0\f1\'c8\'e2\'e0\'ed\'ee\'e2 \'cd\'e8\'ea\'e8\'f2\'e0 \par
+
+\pard\keepn\widctlpar\s5\li360\sb90\sa30\b\f0\'c4\'e0\'f2\'e0\par
+
+\pard\widctlpar\li360\sb30\sa60\b0\f1 15.05.2023 \par
+
+\pard\fs24\par
+
+\pard\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\b\f0\fs28\'d4\'e0\'e9\'eb C:/Users/Zver/Documents/course_work/mainwindow.cpp\par
+
+\pard\kerning0\b0\f1\fs24 AAAAAAAAAKAAAAAAAAAK\par
+\fs22\'c8\'f1\'f5\'ee\'e4\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e0\'eb\'e0 \'e3\'eb\'e0\'e2\'ed\'ee\'e3\'ee \'ec\'e5\'ed\'fe (\'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1 \'e3\'eb\'e0\'e2\'ed\'ee\'e3\'ee \'ec\'e5\'ed\'fe) \fs24\par
+
+\pard\widctlpar\f2\fs22 #include "mainwindow.h"\f1\par
+\f2 #include "ui_mainwindow.h"\f1\par
+\f2 #include "choose_difficulty.h"\f1\par
+\f2 #include "records.h"\f1\par
+\f2 #include <QFile>\f1\par
+\f2 #include <QMessageBox>\f1\par
+
+\pard\brdrb\brdrs\brdrw5\brsp20 \widctlpar\fs24\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\'cf\'ee\'e4\'f0\'ee\'e1\'ed\'ee\'e5 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5\par
+
+\pard\widctlpar\sb30\sa60\qj\b0\f1\fs22\'c8\'f1\'f5\'ee\'e4\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e0\'eb\'e0 \'e3\'eb\'e0\'e2\'ed\'ee\'e3\'ee \'ec\'e5\'ed\'fe (\'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1 \'e3\'eb\'e0\'e2\'ed\'ee\'e3\'ee \'ec\'e5\'ed\'fe) \par
+\par
+
+\pard\keepn\widctlpar\s5\sb90\sa30\qj\b\f0\fs20\'c0\'e2\'f2\'ee\'f0\par
+
+\pard\widctlpar\li360\sb30\sa60\b0\f1\'c8\'e2\'e0\'ed\'ee\'e2 \'cd\'e8\'ea\'e8\'f2\'e0 \par
+
+\pard\keepn\widctlpar\s5\li360\sb90\sa30\b\f0\'c4\'e0\'f2\'e0\par
+
+\pard\widctlpar\li360\sb30\sa60\b0\f1 15.05.2023 \par
+
+\pard\fs24\par
+
+\pard\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\b\f0\fs28\'d4\'e0\'e9\'eb C:/Users/Zver/Documents/course_work/mainwindow.h\par
+
+\pard\kerning0\b0\f1\fs24 AAAAAAAAALAAAAAAAAAL\par
+\fs22\'c7\'e0\'e3\'ee\'eb\'ee\'e2\'ee\'f7\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e0\'eb\'e0 \'e3\'eb\'e0\'e2\'ed\'ee\'e5\'e3\'ee \'ec\'e5\'ed\'fe (\'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1 \'e3\'eb\'e0\'e2\'ed\'ee\'e3\'ee \'ec\'e5\'ed\'fe) \fs24\par
+
+\pard\widctlpar\f2\fs22 #include <QMainWindow>\f1\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\fs24\'ca\'eb\'e0\'f1\'f1\'fb\par
+
+\pard\widctlpar\li360\sb30\sa60\qj\b0\f1\fs20 class \b MainWindow\b0\i\fs22\'ca\'eb\'e0\'f1\'f1 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'e3\'eb\'e0\'e2\'ed\'ee\'e3\'ee \'ec\'e5\'ed\'fe \i0\fs20\par
+
+\pard\brdrb\brdrs\brdrw5\brsp20 \widctlpar\fs24\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\'cf\'ee\'e4\'f0\'ee\'e1\'ed\'ee\'e5 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5\par
+
+\pard\widctlpar\sb30\sa60\qj\b0\f1\fs22\'c7\'e0\'e3\'ee\'eb\'ee\'e2\'ee\'f7\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e0\'eb\'e0 \'e3\'eb\'e0\'e2\'ed\'ee\'e5\'e3\'ee \'ec\'e5\'ed\'fe (\'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1 \'e3\'eb\'e0\'e2\'ed\'ee\'e3\'ee \'ec\'e5\'ed\'fe) \par
+\par
+
+\pard\keepn\widctlpar\s5\sb90\sa30\qj\b\f0\fs20\'c0\'e2\'f2\'ee\'f0\par
+
+\pard\widctlpar\li360\sb30\sa60\b0\f1\'c8\'e2\'e0\'ed\'ee\'e2 \'cd\'e8\'ea\'e8\'f2\'e0 \par
+
+\pard\keepn\widctlpar\s5\li360\sb90\sa30\b\f0\'c4\'e0\'f2\'e0\par
+
+\pard\widctlpar\li360\sb30\sa60\b0\f1 15.05.2023 \par
+
+\pard\fs24\par
+
+\pard\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\b\f0\fs28 mainwindow.h\par
+
+\pard\cbpat7\shading1000\widctlpar\kerning0\b0\f1\fs24 AAAAAAAAACAAAAAAAAAC\'d1\'ec. \'e4\'ee\'ea\'f3\'ec\'e5\'ed\'f2\'e0\'f6\'e8\'fe.\f2\fs16 1 \par
+8 \cf1 #ifndef MAINWINDOW_H\cf0\par
+9 \cf1 #define MAINWINDOW_H\cf0\par
+10 \par
+11 \cf1 #include <QMainWindow>\cf0\par
+12 \par
+13 QT_BEGIN_NAMESPACE\par
+14 \cf2 namespace \cf0 Ui \{ \cf2 class \cf0 MainWindow; \}\par
+15 QT_END_NAMESPACE\par
+16 \par
+22 \cf2 class \cf0 MainWindow : \cf2 public\cf0  QMainWindow\par
+23 \{\par
+24     Q_OBJECT\par
+25 \par
+26 \cf2 public\cf0 :\par
+27 \par
+32     MainWindow(QWidget *parent = \cf2 nullptr\cf0 );\par
+33 \par
+38     ~MainWindow();\par
+39 \par
+40 \cf2 private\cf0  slots:\par
+41 \par
+47     \cf3 void\cf0  on_pushButton_exit_clicked();\par
+48 \par
+54     \cf3 void\cf0  on_pushButton_records_clicked();\par
+55 \par
+61     \cf3 void\cf0  on_pushButton_playgame_clicked();\par
+62 \par
+68     \cf3 void\cf0  on_pushButton_help_clicked();\par
+69 \par
+70 \cf2 private\cf0 :\par
+71     Ui::MainWindow *ui;\par
+72 \};\par
+73 \cf1 #endif \cf4 // MAINWINDOW_H\cf0\par
+
+\pard\f1\fs24\par
+\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\b\f0\fs28\'d4\'e0\'e9\'eb C:/Users/Zver/Documents/course_work/records.cpp\par
+
+\pard\kerning0\b0\f1\fs24 AAAAAAAAAMAAAAAAAAAM\par
+\fs22\'c8\'f1\'f5\'ee\'e4\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e0\'eb\'e0 \'ec\'e5\'ed\'fe \'f0\'e5\'ea\'ee\'f0\'e4\'ee\'e2 \fs24\par
+
+\pard\widctlpar\f2\fs22 #include "records.h"\f1\par
+\f2 #include "ui_records.h"\f1\par
+\f2 #include "mainwindow.h"\f1\par
+\f2 #include <QFile>\f1\par
+
+\pard\brdrb\brdrs\brdrw5\brsp20 \widctlpar\fs24\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\'cf\'ee\'e4\'f0\'ee\'e1\'ed\'ee\'e5 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5\par
+
+\pard\widctlpar\sb30\sa60\qj\b0\f1\fs22\'c8\'f1\'f5\'ee\'e4\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e0\'eb\'e0 \'ec\'e5\'ed\'fe \'f0\'e5\'ea\'ee\'f0\'e4\'ee\'e2 \par
+\par
+
+\pard\keepn\widctlpar\s5\sb90\sa30\qj\b\f0\fs20\'c0\'e2\'f2\'ee\'f0\par
+
+\pard\widctlpar\li360\sb30\sa60\b0\f1\'c8\'e2\'e0\'ed\'ee\'e2 \'cd\'e8\'ea\'e8\'f2\'e0 \par
+
+\pard\keepn\widctlpar\s5\li360\sb90\sa30\b\f0\'c4\'e0\'f2\'e0\par
+
+\pard\widctlpar\li360\sb30\sa60\b0\f1 15.05.2023 \par
+
+\pard\fs24\par
+
+\pard\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\b\f0\fs28\'d4\'e0\'e9\'eb C:/Users/Zver/Documents/course_work/records.h\par
+
+\pard\kerning0\b0\f1\fs24 AAAAAAAAANAAAAAAAAAN\par
+\fs22\'c7\'e0\'e3\'ee\'eb\'ee\'e2\'ee\'f7\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'e4\'eb\'ff \'ec\'e5\'ed\'fe \'f0\'e5\'ea\'ee\'f0\'e4\'ee\'e2 \fs24\par
+
+\pard\widctlpar\f2\fs22 #include <QMainWindow>\f1\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\fs24\'ca\'eb\'e0\'f1\'f1\'fb\par
+
+\pard\widctlpar\li360\sb30\sa60\qj\b0\f1\fs20 class \b records\b0\i\fs22\'ca\'eb\'e0\'f1\'f1 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ed\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'f0\'e5\'ea\'ee\'f0\'e4\'ee\'e2 \i0\fs20\par
+
+\pard\brdrb\brdrs\brdrw5\brsp20 \widctlpar\fs24\par
+
+\pard\keepn\widctlpar\s3\sb240\sa60\b\f0\'cf\'ee\'e4\'f0\'ee\'e1\'ed\'ee\'e5 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5\par
+
+\pard\widctlpar\sb30\sa60\qj\b0\f1\fs22\'c7\'e0\'e3\'ee\'eb\'ee\'e2\'ee\'f7\'ed\'fb\'e9 \'f4\'e0\'e9\'eb \'e4\'eb\'ff \'ec\'e5\'ed\'fe \'f0\'e5\'ea\'ee\'f0\'e4\'ee\'e2 \par
+\par
+
+\pard\keepn\widctlpar\s5\sb90\sa30\qj\b\f0\fs20\'c0\'e2\'f2\'ee\'f0\par
+
+\pard\widctlpar\li360\sb30\sa60\b0\f1\'c8\'e2\'e0\'ed\'ee\'e2 \'cd\'e8\'ea\'e8\'f2\'e0 \par
+
+\pard\keepn\widctlpar\s5\li360\sb90\sa30\b\f0\'c4\'e0\'f2\'e0\par
+
+\pard\widctlpar\li360\sb30\sa60\b0\f1 15.05.2023 \par
+
+\pard\fs24\par
+
+\pard\par
+
+\pard\keepn\widctlpar\s2\sb240\sa60\kerning28\b\f0\fs28 records.h\par
+
+\pard\cbpat7\shading1000\widctlpar\kerning0\b0\f1\fs24 AAAAAAAAADAAAAAAAAAD\'d1\'ec. \'e4\'ee\'ea\'f3\'ec\'e5\'ed\'f2\'e0\'f6\'e8\'fe.\f2\fs16 1 \par
+8 \cf1 #ifndef RECORDS_H\cf0\par
+9 \cf1 #define RECORDS_H\cf0\par
+10 \par
+11 \cf1 #include <QMainWindow>\cf0\par
+12 \par
+13 \cf2 namespace \cf0 Ui \{\par
+14 \cf2 class \cf0 records;\par
+15 \}\par
+16 \par
+22 \cf2 class \cf0 records : \cf2 public\cf0  QMainWindow\par
+23 \{\par
+24     Q_OBJECT\par
+25 \par
+26 \cf2 public\cf0 :\par
+27 \par
+32     \cf2 explicit\cf0  records(QWidget *parent = \cf2 nullptr\cf0 );\par
+33 \par
+38     ~records();\par
+39 \par
+40 \cf2 private\cf0  slots:\par
+41 \par
+47     \cf3 void\cf0  on_pushButton_exit_clicked();\par
+48 \par
+49 \cf2 private\cf0 :\par
+50     Ui::records *ui;\par
+51 \};\par
+52 \par
+53 \cf1 #endif \cf4 // RECORDS_H\cf0\par
+
+\pard\f1\fs24\par
+
+\pard\keepn\s1\sb240\sa60\kerning36\b\f0\fs36\'c0\'eb\'f4\'e0\'e2\'e8\'f2\'ed\'fb\'e9 \'f3\'ea\'e0\'e7\'e0\'f2\'e5\'eb\'fc\par
+
+\pard\sa200\sl276\slmult1\kerning0\b0\f1\fs24 INDEX\par
+}
+ 
